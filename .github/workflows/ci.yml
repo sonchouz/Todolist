@@ -55,5 +55,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: build/libs/todo-app-0.1.0.jar
-          asset_name: todo-app-${{ steps.get_version.outputs.VERSION }}.jar
+          asset_name: todo-app-0.1.0.jar
           asset_content_type: application/java-archive
